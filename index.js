@@ -6,25 +6,22 @@ const cheerio = require('cheerio');
 
 async function main() {
   try {
-    await getCookie(
-      email: config.account.email,
-      password: config.account.password
-    ), (error, fbstate) => {
+    await getCookie(config.account.email, config.account.password, (error, fbstate) => {
       if (error) {
         console.error(error);
         // return;
-      };
+      }
 
       if (fbstate) {
         console.log(fbstate);
       } else {
         console.log("Incorrect email / password!");
-      };
+      }
     });
   } catch (error) {
     console.error(error);
-  };
-};
+  }
+}
 
 async function getCookie(email, password, callback) {
   const url = 'https://mbasic.facebook.com';
@@ -98,13 +95,13 @@ async function getCookie(email, password, callback) {
       }));
       const fbstate = JSON.stringify(cok, null, 4);
 
-      if (cok.some(cookie => cookie.key === "c_user") {
+      if (cok.some(cookie => cookie.key === "c_user")) {
         return callback(null, fbstate); 
       } else {
         return callback(null, null);
-      };
+      }
     });
   });
-};
+}
 
 main();
