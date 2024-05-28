@@ -1,0 +1,16 @@
+{
+  "name": "FBStater",
+  "version": "1.0.0",
+  "description": "Get your appState just like in c3c-fbstate!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Rui Reogo (ruingl)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "request": "^2.88.2"
+  }
+}
