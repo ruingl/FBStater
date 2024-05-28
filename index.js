@@ -46,7 +46,6 @@ async function getCookie(email, password, callback) {
 
   request({ url: xurl, headers: headers, jar: jar }, (error, response, body) => {
     if (error) {
-      console.error('Initial request error:', error);
       return callback(error);
     }
 
@@ -79,7 +78,6 @@ async function getCookie(email, password, callback) {
 
     request.post({ url: xurl, headers: headers, form: formData, followAllRedirects: true, timeout: 300000, jar: jar }, (error, response, body) => {
       if (error) {
-        console.error('Login request error:', error);
         return callback(error);
       }
 
