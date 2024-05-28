@@ -16,12 +16,12 @@ Add your email / password at config/config.json.
 ```
 
 After adding your info's, just run it!
-```
+```bash
 npm run start
 ```
 
 ## Reference:
-```
+```json
 [
   {
     "key": "datr",
