@@ -15,4 +15,9 @@ Add your email / password at config/config.json.
 }
 ```
 
+After adding your info's, just run it!
+```
+npm run start
+```
+
 ###### Made with 💙 by Rui
