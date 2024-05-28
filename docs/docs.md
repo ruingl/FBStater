@@ -20,4 +20,82 @@ After adding your info's, just run it!
 npm run start
 ```
 
+## Reference:
+```
+[
+  {
+    "key": "datr",
+    "value": "value",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": true,
+    "creation": "2024-05-28T11:17:17.366Z",
+    "lastAccessed": "2024-05-28T11:17:17.366Z"
+  },
+  {
+    "key": "sb",
+    "value": "value",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": true,
+    "creation": "2024-05-28T11:17:17.366Z",
+    "lastAccessed": "2024-05-28T11:17:17.366Z"
+  },
+  {
+    "key": "ps_n",
+    "value": "value",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": true,
+    "creation": "2024-05-28T11:17:17.366Z",
+    "lastAccessed": "2024-05-28T11:17:17.366Z"
+  },
+  {
+    "key": "ps_l",
+    "value": "value",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": true,
+    "creation": "2024-05-28T11:17:17.366Z",
+    "lastAccessed": "2024-05-28T11:17:17.366Z"
+  },
+  {
+    "key": "c_user",
+    "value": "value",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": true,
+    "creation": "2024-05-28T11:17:17.366Z",
+    "lastAccessed": "2024-05-28T11:17:17.366Z"
+  },
+  {
+    "key": "xs",
+    "value": "value",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": true,
+    "creation": "2024-05-28T11:17:17.366Z",
+    "lastAccessed": "2024-05-28T11:17:17.366Z"
+  },
+  {
+    "key": "fr",
+    "value": "value",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": true,
+    "creation": "2024-05-28T11:17:17.366Z",
+    "lastAccessed": "2024-05-28T11:17:17.366Z"
+  },
+  {
+    "key": "m_page_voice",
+    "value": "value",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": true,
+    "creation": "2024-05-28T11:17:17.366Z",
+    "lastAccessed": "2024-05-28T11:17:17.366Z"
+  }
+]
+```
+
 ###### Made with 💙 by Rui
