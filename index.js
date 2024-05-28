@@ -26,7 +26,7 @@ async function main() {
 async function getCookie(email, password, callback) {
   const url = 'https://mbasic.facebook.com';
   const xurl = url + '/login.php';
-  const userAgent = "Mozilla/5.0 (Linux; Android 4.1.2; GT-I8552 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36";
+  const userAgent = config.userAgent;
   const headers = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     'accept-language': 'en_US',
